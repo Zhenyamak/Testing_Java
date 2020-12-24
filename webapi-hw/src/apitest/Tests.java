@@ -52,8 +52,4 @@ public class Tests {
         .when().post("https://api.dropboxapi.com/2/files/delete_v2")
         .then().statusCode(200);
     }
-
-    public static void main() {
-
-    }
 }
