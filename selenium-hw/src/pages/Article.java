@@ -5,8 +5,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Article extends headers{
 	
-	public WebDriver driver;
-	
 	public Article(WebDriver driver) {
 			super(driver);
 	        PageFactory.initElements(driver, this);

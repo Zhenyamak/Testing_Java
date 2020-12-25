@@ -6,9 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Russian extends headers {
-	
-	public WebDriver driver;
-	
+
 	public Russian(WebDriver driver) {
 		super(driver);
         PageFactory.initElements(driver, this);

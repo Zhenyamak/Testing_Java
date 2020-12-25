@@ -5,8 +5,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class FAQ extends headers {
 	
-	public WebDriver driver;
-	
 	public FAQ(WebDriver driver) {
 			super(driver);
 	        PageFactory.initElements(driver, this);

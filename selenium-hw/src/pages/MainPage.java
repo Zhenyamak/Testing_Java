@@ -6,8 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class MainPage extends headers {
-
-	public WebDriver driver;
 	
 	public MainPage(WebDriver driver) {
 			super(driver);
